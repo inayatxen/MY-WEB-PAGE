@@ -36,7 +36,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
             {/* Mobile Menu Button */}
             <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              onClick={() => {
+                setIsMenuOpen(!isMenuOpen);
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
               className="md:hidden p-2 hover:bg-muted rounded-lg transition-colors"
             >
               {isMenuOpen ? (
