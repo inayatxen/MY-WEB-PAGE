@@ -5,9 +5,9 @@ export default function Projects() {
   const allProjects = [
     {
       id: 1,
-      title: "Smart Power Grid Monitor",
-      description: "Real-time electrical grid monitoring system designed for PESCO. Provides live updates on power consumption, voltage levels, and system health with predictive analytics.",
-      tags: ["React", "Node.js", "Socket.io", "PostgreSQL", "IoT"],
+      title: "PESCO Theft Guard",
+      description: "Real-time Electrical Theft Reporting Application for Android Mobile Devices. The application helps to report Electricity theft with proofs of Picture and Video",
+      tags: ["Kotlin", "Android Studio", "Supabase", "PostgreSQL"],
       image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fc2c483697d5f42cba275568cb0651e70?format=webp&width=800&height=1200",
       year: 2023,
       downloadUrl: "https://cdn.builder.io/o/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fa3a58a83dfa144e09a89012aa95e3356?alt=media&token=e1738b95-f077-4443-80bb-154f86a6ff0f&apiKey=cdf8698cb7bb47508b0ba42324c3a1c8",
