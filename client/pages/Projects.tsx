@@ -77,17 +77,6 @@ export default function Projects() {
                   <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
                   <p className="text-muted-foreground mb-6 leading-relaxed">{project.description}</p>
 
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    {project.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="px-3 py-1 text-sm bg-primary/10 text-primary rounded-full border border-primary/30 font-medium"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-
                   <div className="flex gap-6 pt-6 border-t border-border">
                     {project.githubUrl && (
                       <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-semibold group/btn">
