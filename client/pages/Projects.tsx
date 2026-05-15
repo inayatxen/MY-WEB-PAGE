@@ -14,14 +14,6 @@ export default function Projects() {
       downloadName: "PESCO THEFT DETECTOR.apk",
     },
     {
-      id: 2,
-      title: "Mobile App Builder",
-      description: "Comprehensive cross-platform mobile application development suite for creating iOS and Android apps without extensive coding. Features drag-and-drop interface and pre-built components.",
-      tags: ["React Native", "Firebase", "Redux", "TypeScript"],
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop",
-      year: 2023,
-    },
-    {
       id: 3,
       title: "Energy Management Dashboard",
       description: "Interactive analytics dashboard for tracking energy consumption patterns. Includes billing integration, usage forecasting, and detailed reports for residential and commercial clients.",
