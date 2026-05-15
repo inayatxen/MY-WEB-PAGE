@@ -24,8 +24,8 @@ export default function Projects() {
     },
     {
       id: 4,
-      title: "Field Service Mobile App",
-      description: "Specialized mobile application for field technicians at PESCO. Enables job tracking, customer communication, spare parts management, and offline functionality.",
+      title: "Field Theft Reporting Mobile App",
+      description: "Mobile application Android based for reporting theft.",
       tags: ["React Native", "Expo", "Firebase", "Google Maps API"],
       image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F75f1fea3f6fd4303a15519b62733db4c?format=webp&width=800&height=1200",
       year: 2022,
@@ -35,7 +35,7 @@ export default function Projects() {
     {
       id: 5,
       title: "Theft Navigator",
-      description: "Modern web application built with React and TypeScript. Demonstrates responsive design, performance optimization, and best practices in web development.",
+      description: "Specialized mobile application for field technicians at PESCO. Enables job tracking, customer communication, spare parts management, and offline functionality.",
       tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F5d3945f153614f4bb471d568053af54d?format=webp&width=800&height=1200",
       year: 2024,
