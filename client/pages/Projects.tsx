@@ -45,7 +45,7 @@ export default function Projects() {
       title: "Theft Navigator",
       description: "Modern web application built with React and TypeScript. Demonstrates responsive design, performance optimization, and best practices in web development.",
       tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      image: "https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=500&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F5d3945f153614f4bb471d568053af54d?format=webp&width=800&height=1200",
       year: 2024,
       demoUrl: "https://theft-navigator.vercel.app",
       githubUrl: "",
