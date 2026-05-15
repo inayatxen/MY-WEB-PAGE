@@ -28,7 +28,7 @@ export default function Projects() {
       tags: ["Vue.js", "Express", "PostgreSQL", "Chart.js"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
       year: 2023,
-      demoUrl: "https://pesco-theft.lovable.app",
+      demoUrl: "https://electricity-theft-navigator.vercel.app",
     },
     {
       id: 4,
