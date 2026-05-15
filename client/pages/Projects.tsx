@@ -5,26 +5,18 @@ export default function Projects() {
   const allProjects = [
     {
       id: 1,
-      title: "Smart Power Grid Monitor",
-      description: "Real-time electrical grid monitoring system designed for PESCO. Provides live updates on power consumption, voltage levels, and system health with predictive analytics.",
-      tags: ["React", "Node.js", "Socket.io", "PostgreSQL", "IoT"],
-      image: "https://images.unsplash.com/photo-1581092162392-8c6c97f1f4c6?w=500&h=300&fit=crop",
+      title: "PESCO Theft Guard",
+      description: "Real-time Electrical Theft Reporting Application for Android Mobile Devices. The application helps to report Electricity theft with proofs of Picture and Video",
+      tags: ["Kotlin", "Android Studio", "Supabase", "PostgreSQL"],
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fc2c483697d5f42cba275568cb0651e70?format=webp&width=800&height=1200",
       year: 2023,
       downloadUrl: "https://cdn.builder.io/o/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fa3a58a83dfa144e09a89012aa95e3356?alt=media&token=e1738b95-f077-4443-80bb-154f86a6ff0f&apiKey=cdf8698cb7bb47508b0ba42324c3a1c8",
       downloadName: "PESCO THEFT DETECTOR.apk",
     },
     {
-      id: 2,
-      title: "Mobile App Builder",
-      description: "Comprehensive cross-platform mobile application development suite for creating iOS and Android apps without extensive coding. Features drag-and-drop interface and pre-built components.",
-      tags: ["React Native", "Firebase", "Redux", "TypeScript"],
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop",
-      year: 2023,
-    },
-    {
       id: 3,
-      title: "Energy Management Dashboard",
-      description: "Interactive analytics dashboard for tracking energy consumption patterns. Includes billing integration, usage forecasting, and detailed reports for residential and commercial clients.",
+      title: "Theft Reports Management Dashboard",
+      description: "Interactive analytics dashboard for tracking energy theft reports reported through PESCO Theft Guard Application.",
       tags: ["Vue.js", "Express", "PostgreSQL", "Chart.js"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
       year: 2023,
@@ -32,10 +24,10 @@ export default function Projects() {
     },
     {
       id: 4,
-      title: "Field Service Mobile App",
-      description: "Specialized mobile application for field technicians at PESCO. Enables job tracking, customer communication, spare parts management, and offline functionality.",
+      title: "Field Theft Reporting Mobile App",
+      description: "Mobile application Android based for reporting theft.",
       tags: ["React Native", "Expo", "Firebase", "Google Maps API"],
-      image: "https://images.unsplash.com/photo-1512941691920-25bda36dc643?w=500&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F75f1fea3f6fd4303a15519b62733db4c?format=webp&width=800&height=1200",
       year: 2022,
       downloadUrl: "https://cdn.builder.io/o/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F3e9a2117f1074d058ed51e190f38164c?alt=media&token=8ac47dfb-9b1a-4610-8886-b460abcad045&apiKey=cdf8698cb7bb47508b0ba42324c3a1c8",
       downloadName: "PESCO THEFT GUARD.apk",
@@ -43,20 +35,12 @@ export default function Projects() {
     {
       id: 5,
       title: "Theft Navigator",
-      description: "Modern web application built with React and TypeScript. Demonstrates responsive design, performance optimization, and best practices in web development.",
+      description: "Specialized mobile application for field technicians at PESCO. Enables job tracking, customer communication, spare parts management, and offline functionality.",
       tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F5d3945f153614f4bb471d568053af54d?format=webp&width=800&height=1200",
       year: 2024,
       demoUrl: "https://theft-navigator.vercel.app",
       githubUrl: "",
-    },
-    {
-      id: 6,
-      title: "IoT Device Management System",
-      description: "Enterprise-level system for managing distributed IoT devices across electrical infrastructure. Includes device provisioning, monitoring, and remote configuration capabilities.",
-      tags: ["Node.js", "MongoDB", "MQTT", "React", "AWS"],
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=300&fit=crop",
-      year: 2022,
     },
   ];
 
@@ -84,7 +68,7 @@ export default function Projects() {
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
-                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors duration-300"></div>
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300"></div>
                   <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-semibold">
                     {project.year}
                   </div>

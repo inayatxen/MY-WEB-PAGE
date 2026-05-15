@@ -23,7 +23,7 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fe93b7dc08ccb432589aa1ee86ee37c32?format=webp&width=800&height=1200"
                   alt="Profile"
                   className="rounded-xl border-4 border-primary/20 w-full"
                 />

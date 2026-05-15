@@ -40,7 +40,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div className="animate-slide-up">
-              <h1 className="text-5xl md:text-6xl text-foreground mb-6 leading-tight flex flex-col justify-start items-start">
+              <h1 className="text-5xl md:text-6xl text-foreground mb-6 leading-tight flex flex-col justify-start items-start font-normal">
                 Electrical Engineer & <span className="text-primary mt-5 inline-block">Software Developer</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
@@ -79,7 +79,7 @@ export default function Index() {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F34f5606b05354e16b8689d378642af21?format=webp&width=800&height=1200"
                   alt="Inayat Ullah"
-                  className="relative rounded-2xl w-full object-cover border-4 border-primary/20"
+                  className="relative rounded-2xl w-full object-cover border-4 border-primary/20 m-0"
                 />
               </div>
             </div>
