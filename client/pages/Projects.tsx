@@ -8,7 +8,7 @@ export default function Projects() {
       title: "Smart Power Grid Monitor",
       description: "Real-time electrical grid monitoring system designed for PESCO. Provides live updates on power consumption, voltage levels, and system health with predictive analytics.",
       tags: ["React", "Node.js", "Socket.io", "PostgreSQL", "IoT"],
-      image: "https://images.unsplash.com/photo-1581092162392-8c6c97f1f4c6?w=500&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fc2c483697d5f42cba275568cb0651e70?format=webp&width=800&height=1200",
       year: 2023,
       downloadUrl: "https://cdn.builder.io/o/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fa3a58a83dfa144e09a89012aa95e3356?alt=media&token=e1738b95-f077-4443-80bb-154f86a6ff0f&apiKey=cdf8698cb7bb47508b0ba42324c3a1c8",
       downloadName: "PESCO THEFT DETECTOR.apk",
