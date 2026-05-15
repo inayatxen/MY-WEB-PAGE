@@ -27,7 +27,7 @@ export default function Projects() {
       title: "Field Service Mobile App",
       description: "Specialized mobile application for field technicians at PESCO. Enables job tracking, customer communication, spare parts management, and offline functionality.",
       tags: ["React Native", "Expo", "Firebase", "Google Maps API"],
-      image: "https://images.unsplash.com/photo-1512941691920-25bda36dc643?w=500&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F75f1fea3f6fd4303a15519b62733db4c?format=webp&width=800&height=1200",
       year: 2022,
       downloadUrl: "https://cdn.builder.io/o/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F3e9a2117f1074d058ed51e190f38164c?alt=media&token=8ac47dfb-9b1a-4610-8886-b460abcad045&apiKey=cdf8698cb7bb47508b0ba42324c3a1c8",
       downloadName: "PESCO THEFT GUARD.apk",
