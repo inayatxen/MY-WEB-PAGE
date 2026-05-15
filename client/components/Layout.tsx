@@ -36,7 +36,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
             {/* Mobile Menu Button */}
             <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              onClick={() => {
+                setIsMenuOpen(!isMenuOpen);
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
               className="md:hidden p-2 hover:bg-muted rounded-lg transition-colors"
             >
               {isMenuOpen ? (
@@ -113,6 +116,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-muted-foreground">
+                <li>
+                  <a href="mailto:inayat.sdo@gmail.com" className="hover:text-primary transition-colors">Email: inayat.sdo@gmail.com</a>
+                </li>
+                <li>
+                  <a href="tel:+923121291333" className="hover:text-primary transition-colors">Phone: +923121291333</a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/Engr.Inayatullah" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Facebook</a>
+                </li>
                 <li>Location: Peshawar, Pakistan</li>
                 <li>Company: Peshawar Electric Supply Company</li>
               </ul>

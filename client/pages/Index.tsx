@@ -1,29 +1,36 @@
 import Layout from "@/components/Layout";
 import { Link } from "react-router-dom";
-import { Zap, Hammer, Rocket, Github, ExternalLink } from "lucide-react";
+import { Zap, Hammer, Rocket, Github, ExternalLink, Download } from "lucide-react";
 
 export default function Index() {
   const featuredProjects = [
     {
       id: 1,
-      title: "Smart Power Grid Monitor",
-      description: "Real-time electrical grid monitoring system for PESCO",
-      tags: ["React", "Node.js", "IoT"],
-      image: "https://images.unsplash.com/photo-1581092162392-8c6c97f1f4c6?w=500&h=300&fit=crop",
-    },
-    {
-      id: 2,
-      title: "Mobile App Builder",
-      description: "Cross-platform mobile application development suite",
-      tags: ["React Native", "Firebase"],
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop",
+      title: "PESCO Theft Guard",
+      description: "Real-time Electrical Theft Reporting Application for Android Mobile Devices. The application helps to report Electricity theft with proofs of Picture and Video",
+      tags: ["Kotlin", "Android Studio", "Supabase", "PostgreSQL"],
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fc2c483697d5f42cba275568cb0651e70?format=webp&width=800&height=1200",
+      year: 2023,
+      downloadUrl: "https://cdn.builder.io/o/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fa3a58a83dfa144e09a89012aa95e3356?alt=media&token=e1738b95-f077-4443-80bb-154f86a6ff0f&apiKey=cdf8698cb7bb47508b0ba42324c3a1c8",
+      downloadName: "PESCO THEFT DETECTOR.apk",
     },
     {
       id: 3,
-      title: "Energy Management Dashboard",
-      description: "Interactive dashboard for energy consumption tracking",
-      tags: ["Vue.js", "Express", "PostgreSQL"],
+      title: "Theft Reports Management Dashboard",
+      description: "Interactive analytics dashboard for tracking energy theft reports reported through PESCO Theft Guard Application.",
+      tags: ["Vue.js", "Express", "PostgreSQL", "Chart.js"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+      year: 2023,
+      demoUrl: "https://pesco-theft.lovable.app",
+    },
+    {
+      id: 5,
+      title: "Theft Navigator",
+      description: "Specialized mobile application for field technicians at PESCO. Enables job tracking, customer communication, spare parts management, and offline functionality.",
+      tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F5d3945f153614f4bb471d568053af54d?format=webp&width=800&height=1200",
+      year: 2024,
+      demoUrl: "https://theft-navigator.vercel.app",
     },
   ];
 
@@ -40,7 +47,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div className="animate-slide-up">
-              <h1 className="text-5xl md:text-6xl text-foreground mb-6 leading-tight flex flex-col justify-start items-start">
+              <h1 className="text-5xl md:text-6xl text-foreground mb-6 leading-tight flex flex-col justify-start items-start font-normal">
                 Electrical Engineer & <span className="text-primary mt-5 inline-block">Software Developer</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
@@ -79,7 +86,7 @@ export default function Index() {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F34f5606b05354e16b8689d378642af21?format=webp&width=800&height=1200"
                   alt="Inayat Ullah"
-                  className="relative rounded-2xl w-full object-cover border-4 border-primary/20"
+                  className="relative rounded-2xl w-full object-cover border-4 border-primary/20 m-0"
                 />
               </div>
             </div>
@@ -92,7 +99,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Technical Expertise</h2>
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
-            Combining electrical engineering knowledge with modern software development practices
+            Combining Electrical Engineering knowledge with Modern Software Development Practices
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -101,7 +108,7 @@ export default function Index() {
                 <Zap className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-xl font-bold mb-3">Electrical Engineering</h3>
-              <p className="text-muted-foreground">Power systems, grid management, electrical safety, and infrastructure design</p>
+              <p className="text-muted-foreground">Power systems, Grid Management, Electrical Safety, and Infrastructure Design</p>
             </div>
 
             <div className="p-8 bg-background rounded-xl border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg">
@@ -109,7 +116,7 @@ export default function Index() {
                 <Code2Icon className="w-6 h-6 text-secondary" />
               </div>
               <h3 className="text-xl font-bold mb-3">Full-Stack Development</h3>
-              <p className="text-muted-foreground">React, Node.js, TypeScript, databases, and cloud deployment</p>
+              <p className="text-muted-foreground">React, Node.js, TypeScript, Databases, and Cloud Deployment</p>
             </div>
 
             <div className="p-8 bg-background rounded-xl border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg">
@@ -117,7 +124,7 @@ export default function Index() {
                 <Rocket className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-xl font-bold mb-3">Mobile Development</h3>
-              <p className="text-muted-foreground">Cross-platform apps, responsive design, and user experience optimization</p>
+              <p className="text-muted-foreground">Cross-platform Apps, Responsive Design, and User Experience Optimization</p>
             </div>
           </div>
         </div>
@@ -128,12 +135,12 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Featured Projects</h2>
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
-            Showcasing my latest work and innovative solutions
+            Showcasing My Latest Work and Innovative Solutions
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {featuredProjects.map((project) => (
-              <div key={project.id} className="project-card overflow-hidden">
+              <div key={project.id} className="project-card overflow-hidden relative">
                 <div className="relative h-48 overflow-hidden">
                   <img
                     src={project.image}
@@ -141,29 +148,28 @@ export default function Index() {
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors duration-300"></div>
+                  {project.year && (
+                    <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-semibold">
+                      {project.year}
+                    </div>
+                  )}
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                   <p className="text-muted-foreground mb-4">{project.description}</p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {project.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="px-3 py-1 text-sm bg-primary/10 text-primary rounded-full border border-primary/30"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
                   <div className="flex gap-4 pt-4 border-t border-border">
-                    <button className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium">
-                      <Github className="w-4 h-4" />
-                      Code
-                    </button>
-                    <button className="flex items-center gap-2 text-secondary hover:text-secondary/80 transition-colors font-medium">
-                      <ExternalLink className="w-4 h-4" />
-                      Demo
-                    </button>
+                    {project.downloadUrl && (
+                      <a href={project.downloadUrl} download={project.downloadName} className="flex items-center gap-2 text-accent hover:text-accent/80 transition-colors font-medium">
+                        <Download className="w-4 h-4" />
+                        Download
+                      </a>
+                    )}
+                    {project.demoUrl && (
+                      <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-secondary hover:text-secondary/80 transition-colors font-medium">
+                        <ExternalLink className="w-4 h-4" />
+                        Demo
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

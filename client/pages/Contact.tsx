@@ -66,10 +66,10 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Email</h3>
                     <a
-                      href="mailto:contact@inayatullah.dev"
+                      href="mailto:inayat.sdo@gmail.com"
                       className="text-primary hover:text-primary/80 transition-colors break-all"
                     >
-                      contact@inayatullah.dev
+                      inayat.sdo@gmail.com
                     </a>
                   </div>
                 </div>
@@ -81,10 +81,10 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Phone</h3>
                     <a
-                      href="tel:+923015554892"
+                      href="tel:+923121291333"
                       className="text-primary hover:text-primary/80 transition-colors"
                     >
-                      +92 301 555 4892
+                      +923121291333
                     </a>
                   </div>
                 </div>
