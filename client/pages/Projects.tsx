@@ -15,8 +15,8 @@ export default function Projects() {
     },
     {
       id: 3,
-      title: "Energy Management Dashboard",
-      description: "Interactive analytics dashboard for tracking energy consumption patterns. Includes billing integration, usage forecasting, and detailed reports for residential and commercial clients.",
+      title: "Theft Reports Management Dashboard",
+      description: "Interactive analytics dashboard for tracking energy theft reports reported through PESCO Theft Guard Application.",
       tags: ["Vue.js", "Express", "PostgreSQL", "Chart.js"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
       year: 2023,
