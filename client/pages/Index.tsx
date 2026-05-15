@@ -99,7 +99,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Technical Expertise</h2>
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
-            Combining electrical engineering knowledge with modern software development practices
+            Combining Electrical Engineering knowledge with Modern Software Development Practices
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -108,7 +108,7 @@ export default function Index() {
                 <Zap className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-xl font-bold mb-3">Electrical Engineering</h3>
-              <p className="text-muted-foreground">Power systems, grid management, electrical safety, and infrastructure design</p>
+              <p className="text-muted-foreground">Power systems, Grid Management, Electrical Safety, and Infrastructure Design</p>
             </div>
 
             <div className="p-8 bg-background rounded-xl border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg">
@@ -116,7 +116,7 @@ export default function Index() {
                 <Code2Icon className="w-6 h-6 text-secondary" />
               </div>
               <h3 className="text-xl font-bold mb-3">Full-Stack Development</h3>
-              <p className="text-muted-foreground">React, Node.js, TypeScript, databases, and cloud deployment</p>
+              <p className="text-muted-foreground">React, Node.js, TypeScript, Databases, and Cloud Deployment</p>
             </div>
 
             <div className="p-8 bg-background rounded-xl border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg">
@@ -124,7 +124,7 @@ export default function Index() {
                 <Rocket className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-xl font-bold mb-3">Mobile Development</h3>
-              <p className="text-muted-foreground">Cross-platform apps, responsive design, and user experience optimization</p>
+              <p className="text-muted-foreground">Cross-platform Apps, Responsive Design, and User Experience Optimization</p>
             </div>
           </div>
         </div>
@@ -135,7 +135,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Featured Projects</h2>
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
-            Showcasing my latest work and innovative solutions
+            Showcasing My Latest Work and Innovative Solutions
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
