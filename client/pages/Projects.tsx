@@ -42,14 +42,6 @@ export default function Projects() {
       demoUrl: "https://theft-navigator.vercel.app",
       githubUrl: "",
     },
-    {
-      id: 6,
-      title: "IoT Device Management System",
-      description: "Enterprise-level system for managing distributed IoT devices across electrical infrastructure. Includes device provisioning, monitoring, and remote configuration capabilities.",
-      tags: ["Node.js", "MongoDB", "MQTT", "React", "AWS"],
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=300&fit=crop",
-      year: 2022,
-    },
   ];
 
   return (
