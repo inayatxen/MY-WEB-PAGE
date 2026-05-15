@@ -157,16 +157,6 @@ export default function Index() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                   <p className="text-muted-foreground mb-4">{project.description}</p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {project.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="px-3 py-1 text-sm bg-primary/10 text-primary rounded-full border border-primary/30"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
                   <div className="flex gap-4 pt-4 border-t border-border">
                     {project.downloadUrl && (
                       <a href={project.downloadUrl} download={project.downloadName} className="flex items-center gap-2 text-accent hover:text-accent/80 transition-colors font-medium">
