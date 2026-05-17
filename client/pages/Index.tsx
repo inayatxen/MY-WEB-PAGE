@@ -10,7 +10,7 @@ export default function Index() {
       description: "Real-time Electrical Theft Reporting Application for Android Mobile Devices. The application helps to report Electricity theft with proofs of Picture and Video",
       tags: ["Kotlin", "Android Studio", "Supabase", "PostgreSQL"],
       image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fc2c483697d5f42cba275568cb0651e70?format=webp&width=800&height=1200",
-      year: 2023,
+      year: 2025,
       downloadUrl: "https://cdn.builder.io/o/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fa3a58a83dfa144e09a89012aa95e3356?alt=media&token=e1738b95-f077-4443-80bb-154f86a6ff0f&apiKey=cdf8698cb7bb47508b0ba42324c3a1c8",
       downloadName: "PESCO THEFT DETECTOR.apk",
     },
@@ -20,7 +20,7 @@ export default function Index() {
       description: "Interactive analytics dashboard for tracking energy theft reports reported through PESCO Theft Guard Application.",
       tags: ["Vue.js", "Express", "PostgreSQL", "Chart.js"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-      year: 2023,
+      year: 2025,
       demoUrl: "https://electricity-theft-navigator.vercel.app",
     },
     {
@@ -29,7 +29,7 @@ export default function Index() {
       description: "Specialized mobile application for field technicians at PESCO. Enables job tracking, customer communication, spare parts management, and offline functionality.",
       tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F5d3945f153614f4bb471d568053af54d?format=webp&width=800&height=1200",
-      year: 2024,
+      year: 2026,
       demoUrl: "https://theft-navigator.vercel.app",
     },
   ];
