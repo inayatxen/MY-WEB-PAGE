@@ -48,7 +48,7 @@ export default function Index() {
             {/* Left Content */}
             <div className="animate-slide-up">
               <h1 className="text-4xl md:text-5xl text-foreground mb-6 leading-[55px] text-left flex flex-col justify-start items-start font-normal">
-                Engr. Inayatullah Electrical Engineer & <span className="text-primary mt-5 inline-block">Software Developer</span>
+                Engr. Inayatullah&nbsp; ..................................&nbsp; Electrical Engineer & <span className="text-primary mt-5 inline-block">Software Developer</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                 Superintendent Engineer at Peshawar Electric Supply Company with expertise in Electrical Engineering and web/mobile Application development. Building innovative digital solutions.
