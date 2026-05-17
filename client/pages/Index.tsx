@@ -47,8 +47,8 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             {/* Left Content */}
             <div className="animate-slide-up">
-              <h1 className="text-5xl md:text-6xl text-foreground mb-6 leading-tight flex flex-col justify-start items-start font-normal">
-                Electrical Engineer & <span className="text-primary mt-5 inline-block">Software Developer</span>
+              <h1 className="text-4xl md:text-5xl text-foreground mb-6 leading-tight flex flex-col justify-start items-start font-normal">
+                Engr. Inayatullah              Electrical Engineer & <span className="text-primary mt-5 inline-block">Software Developer</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                 Superintendent Engineer at Peshawar Electric Supply Company with expertise in Electrical Engineering and web/mobile Application development. Building innovative digital solutions.
