@@ -10,7 +10,7 @@ export default function Index() {
       description: "Real-time Electrical Theft Reporting Application for Android Mobile Devices. The application helps to report Electricity theft with proofs of Picture and Video",
       tags: ["Kotlin", "Android Studio", "Supabase", "PostgreSQL"],
       image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fc2c483697d5f42cba275568cb0651e70?format=webp&width=800&height=1200",
-      year: 2023,
+      year: 2025,
       downloadUrl: "https://cdn.builder.io/o/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fa3a58a83dfa144e09a89012aa95e3356?alt=media&token=e1738b95-f077-4443-80bb-154f86a6ff0f&apiKey=cdf8698cb7bb47508b0ba42324c3a1c8",
       downloadName: "PESCO THEFT DETECTOR.apk",
     },
@@ -20,7 +20,7 @@ export default function Index() {
       description: "Interactive analytics dashboard for tracking energy theft reports reported through PESCO Theft Guard Application.",
       tags: ["Vue.js", "Express", "PostgreSQL", "Chart.js"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-      year: 2023,
+      year: 2025,
       demoUrl: "https://electricity-theft-navigator.vercel.app",
     },
     {
@@ -29,7 +29,7 @@ export default function Index() {
       description: "Specialized mobile application for field technicians at PESCO. Enables job tracking, customer communication, spare parts management, and offline functionality.",
       tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F5d3945f153614f4bb471d568053af54d?format=webp&width=800&height=1200",
-      year: 2024,
+      year: 2026,
       demoUrl: "https://theft-navigator.vercel.app",
     },
   ];
@@ -44,11 +44,11 @@ export default function Index() {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             {/* Left Content */}
             <div className="animate-slide-up">
-              <h1 className="text-5xl md:text-6xl text-foreground mb-6 leading-tight flex flex-col justify-start items-start font-normal">
-                Electrical Engineer & <span className="text-primary mt-5 inline-block">Software Developer</span>
+              <h1 className="text-4xl md:text-5xl text-foreground mb-6 leading-[55px] text-left flex flex-col justify-start items-start font-normal">
+                Engr. Inayatullah Electrical Engineer & <span className="text-primary mt-5 inline-block">Software Developer</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                 Superintendent Engineer at Peshawar Electric Supply Company with expertise in Electrical Engineering and web/mobile Application development. Building innovative digital solutions.
@@ -83,6 +83,7 @@ export default function Index() {
             <div className="animate-fade-in hidden md:block">
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-secondary/30 rounded-2xl blur-xl"></div>
+                <span className="text-2xl font-semibold text-foreground mb-4 block">Engr. Inayat ullah</span>
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F34f5606b05354e16b8689d378642af21?format=webp&width=800&height=1200"
                   alt="Inayat Ullah"
