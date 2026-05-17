@@ -42,6 +42,15 @@ export default function Projects() {
       demoUrl: "https://theft-navigator.vercel.app",
       githubUrl: "",
     },
+    {
+      id: 6,
+      title: "PESCO Consumer Navigation Portal",
+      description: "Interactive navigation and service portal for PESCO consumers. Enables easy access to billing information, service requests, and customer support.",
+      tags: ["React", "TypeScript", "Leaflet Maps", "PostgreSQL"],
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F68a4fb45142b415c9fc0f20df274cf4b?format=webp&width=800&height=1200",
+      year: 2025,
+      demoUrl: "https://pesco-consumer-portal.vercel.app",
+    },
   ];
 
   return (
