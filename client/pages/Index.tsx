@@ -83,6 +83,7 @@ export default function Index() {
             <div className="animate-fade-in hidden md:block">
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-secondary/30 rounded-2xl blur-xl"></div>
+                <span className="text-2xl font-semibold text-foreground mb-4 block">Engr. Inayat ullah</span>
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F34f5606b05354e16b8689d378642af21?format=webp&width=800&height=1200"
                   alt="Inayat Ullah"
