@@ -11,7 +11,7 @@ export default function Index() {
       tags: ["Kotlin", "Android Studio", "Supabase", "PostgreSQL"],
       image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fc2c483697d5f42cba275568cb0651e70?format=webp&width=800&height=1200",
       year: 2025,
-      downloadUrl: "https://cdn.builder.io/o/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fa3a58a83dfa144e09a89012aa95e3356?alt=media&token=e1738b95-f077-4443-80bb-154f86a6ff0f&apiKey=cdf8698cb7bb47508b0ba42324c3a1c8",
+      downloadUrl: "https://cdn.builder.io/o/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fa3a58a83dfa144e09a89012aa95e3356?alt=media&token=e1738b95-f077-4443-80bb-154f86a6ff0f&apiKey=cdf8698cb7bb47[...]
       downloadName: "PESCO THEFT DETECTOR.apk",
     },
     {
@@ -85,7 +85,7 @@ export default function Index() {
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-secondary/30 rounded-2xl blur-xl"></div>
                 <span className="text-2xl font-semibold text-foreground mb-4 block">Engr. Inayat ullah</span>
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2F34f5606b05354e16b8689d378642af21?format=webp&width=800&height=1200"
+                  src="/assets/inayat2.jpg"
                   alt="Inayat Ullah"
                   className="relative rounded-2xl w-full object-cover border-4 border-primary/20 m-0"
                 />
