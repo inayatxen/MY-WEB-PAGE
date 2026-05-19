@@ -56,7 +56,7 @@ export default function Projects() {
       title: "SDO Facilitation Application (Android)",
       description: "Facilitate PESCO staff by providing shortcuts of all the portals through the application. Streamlines access to essential tools and resources for SDO personnel.",
       tags: ["Android", "Kotlin", "Mobile App", "Enterprise"],
-      image: "https://cdn.builder.io/api/v1/image/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fc23298cdd7fb43e29c044fa392919702?format=webp&width=800&height=1200",
+      image: "/sdo-facilitation.webp",
       year: 2026,
       downloadUrl: "https://cdn.builder.io/o/assets%2Fcdf8698cb7bb47508b0ba42324c3a1c8%2Fc23298cdd7fb43e29c044fa392919702?alt=media&token=39d821d0-1a0c-4c3e-988d-6698c4462125&apiKey=cdf8698cb7bb47508b0ba42324c3a1c8",
       downloadName: "SDO Facilitation App.apk",
