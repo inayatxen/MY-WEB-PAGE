@@ -85,7 +85,7 @@ export default function Index() {
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-secondary/30 rounded-2xl blur-xl"></div>
                 <span className="text-2xl font-semibold text-foreground mb-4 block">Engr. Inayat ullah</span>
                 <img
-                  src="/assets/inayat2.jpg"
+                  src="/inayat2.jpeg"
                   alt="Inayat Ullah"
                   className="relative rounded-2xl w-full object-cover border-4 border-primary/20 m-0"
                 />
