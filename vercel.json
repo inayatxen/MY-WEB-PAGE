@@ -2,7 +2,7 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "dist/spa",
   "env": {
-    "PING_MESSAGE": "@inayatxen"
+    "PING_MESSAGE": "pong"
   },
   "functions": {
     "server/index.ts": {
