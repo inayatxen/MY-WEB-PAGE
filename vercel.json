@@ -3,5 +3,16 @@
   "outputDirectory": "dist/spa",
   "env": {
     "PING_MESSAGE": "@inayatxen"
-  }
+  },
+  "functions": {
+    "server/index.ts": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/server/index.ts"
+    }
+  ]
 }
