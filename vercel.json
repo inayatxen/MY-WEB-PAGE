@@ -6,7 +6,7 @@
   },
   "functions": {
     "server/index.ts": {
-      "runtime": "nodejs@20"
+      "runtime": "@vercel/node@3"
     }
   },
   "rewrites": [
